@@ -21,17 +21,24 @@
             <input type="submit" value="Search" class="search-form-input"/>
             </form>
     </header>
-    <div>
-    <h1 class="weather-up-city" id="city">Paris</h1>
-    <p>
-        Tuesday 14:49, scattered clouds
-        <br />
-        Humidity: 66%, Wind: 3.13km/h
-    </p>
-    </div>
-    <div>
-    ☁️ 12C°
-    </div>
+    <main>
+        <div class="weather-app-data">
+            <div>
+                <h1 class="weather-up-city" id="city">Paris</h1>
+                <p class="weather-app-details">
+                    <span class="time">Tuesday 14:49, scattered clouds</span><br />
+                    <span class="humidity">Humidity: 66%</span>, 
+                    <span class="wind">Wind: 3.13 km/h</span>
+                </p>
+            </div>
+            <div class="weather-app-temperature-container">
+                <div class="weather-app-icon">☁️</div>
+                <div class="weather-app-temperature" id="temperature">12</div>
+                <div class="weather-app-unit">C°</div>
+            </div>
+        </div>
+        
+        </main>
     <footer>Coded by 
         <a href="https://github.com/IrynaKhandoniak" target="_blank"> Iryna </a>, is
         <a href="https://github.com/IrynaKhandoniak/my-weather-app"> open-sourced on GitHub </a>and hosted
